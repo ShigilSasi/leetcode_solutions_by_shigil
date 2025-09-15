@@ -11,6 +11,6 @@ class Solution:
                 stk.pop()
             else:
                 stk.append(int(op))
-            
+
         return sum(stk)
         
